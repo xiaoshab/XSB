@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/register.css"/>
+		<script src="/lib/requirejs/require.js" data-main="/js/register"></script>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="register">
+			<div class="register_box">
+				<p class="text">填写注册信息</p>
+				<form action="register.php" method="post" id="for">
+						<input type="text" id="username" placeholder="请输入用户名"/>
+						<p id="username_info"></p>
+						<input type="password" id="password" placeholder="请输入密码"/>
+						<p id="password_info"></p>
+				<input type="password" id="passwords" placeholder="再次输入密码"/>
+						<p id="passwords_info"></p>
+						<input type="text" id="code" placeholder="请输入验证码" /><img src="" id="vali"/>
+						<p id="code_info"></p>
+						<input type="submit" id="btn" value="注册"/>
+						<input type="reset" id ="cz" value="重置" />
+				</form>
+			</div>				
+			</div>
+		</div>
+		<div class="footers"></div>
+	</body>
+</html>
