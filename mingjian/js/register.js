@@ -40,7 +40,7 @@ require(["config"], function(){
 							if (data.status == 0) {
 								$("#username_info").text("用户已存在");
 							} else{
-								$("#username_info").text("恭喜少侠，可以使用");
+								$("#username_info").text("用户名");
 							}
 						}
 			});

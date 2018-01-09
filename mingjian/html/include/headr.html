@@ -1,20 +1,28 @@
 <link rel="stylesheet" type="text/css" href="/css/headr.css"/>
 <div class="header">
 	<ul class="head_ul">
-		<li><a href="#">登录</a></li>
+		<li><a href="#" id="cookie_name">登录</a></li>
 		<li><a href="/html/register.html">注册</a></li>
 		<li><a href="#">我的账户</a></li>
 		<li><a href="#">购物车</a></li>
 		<li><a href="#">我的商品</a></li>
 	</ul>
-	<div class="cart">
-		<img src="../../images/cart.jpg"/>
+	<div class="login">
+		<form id="loginform" action="login.php" method="post">
+			<span>用户名：</span><input type="text" placeholder="输入用户名" id="login_user" /><br/>
+			<span>密码：</span><input type="password" placeholder="输入密码" id="login_pass"/><br/>
+			<input type="submit" value="登录" id="login_btn"/>
+			<a href="#">忘记密码？</a>
+		</form>
 	</div>
 	<div class="scrach">
 		<input type="text" class="word">
 		<button>搜索</button>
 		<div class="info"></div>
 	</div>
+	<form class="login_form">
+		<input type="submit" id="lonout" value="注销"/>
+	</form>
 <div class="nav">
 	<div class="hide">
 		<a href="/index.html">名剑城</a>
@@ -32,6 +40,5 @@
 		<li><a href="#">藏剑阁</a></li>
 		<li><a href="#">鉴剑堂</a></li>
 		<li><a href="/html/cart.html" id="car">练剑炉</a></li>
-		
 	</ul>
 </div>
