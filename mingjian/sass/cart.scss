@@ -5,6 +5,7 @@
 .mian{
     min-height: 800px;
     position: relative;
+    padding: 0 180px;
 
 .cart_title div, .product div {
             width:100px;
@@ -27,14 +28,13 @@
             height:30px;
             line-height: 30px;
             display: inline-block;
-            border:1px solid;
             cursor:pointer;
         }
         .cart_title .title, .product .title {
             width:300px;
         }
         .total {
-            width:100%;
+            width:897px;
             height:50px;
             line-height: 50px;
             position: absolute;

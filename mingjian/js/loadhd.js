@@ -1,15 +1,9 @@
 // 定义模块，加载头部、尾部资源
 define(["jquery","carousel","cookie"], function($,carousel){
+	$.cookie.json =  true;
 	// 将 header.html 加载显示，绑定交互效果
 	$.ajax("/html/include/headr.html").done(function(data){
 		$(".header").html(data);
-	}).done(function  () {
-			 	$(document).ready(function () {
-			 		 var _user = $.cookie('key');
-			 		  if (_user) {
-			 		  	$("#cookie_name").html(_user);
-					 }
-			 	});
 	}).done(function(){
 		// 绑定查找的键盘按键事件
 		$(".scrach .word").keyup(function(){
@@ -65,7 +59,30 @@ define(["jquery","carousel","cookie"], function($,carousel){
 			$("#cookie_name").click(function () {
 				$(".login").show();
 			});
-		});
+		}).done(function  () {
+			 	$(document).ready(function () {
+			 		 var _user = $.cookie('key');
+			 		  if (_user) {
+			 		  	$("#cookie_name").html(_user);
+					 }
+			 	});
+	}).done(function  () {
+		$("#lonout").click(function(){
+				$.cookie("key",1,{expires:-1,path:"/"});
+				location.reload();
+			
+		})
+	});
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	// 将 footer.html 加载显示到 div.footer 中
 //	$(".footers").load("/html/include/footer.html");
  	$.ajax("/html/include/footer.html").done(function(data){
@@ -73,11 +90,11 @@ define(["jquery","carousel","cookie"], function($,carousel){
 	}).done(function () {
 		$(".cons").eq(0).carousel({
 			imgs : [
-				{src:"/images/1.jpg_.webp.jpg", href:"#"},
-				{src:"/images/2.jpg_.webp.jpg", href:"#"},
-				{src:"/images/3.jpg_.webp.jpg", href:"#"},
-				{src:"/images/4.jpg_.webp.jpg", href:"#"},
-				{src:"/images/5.jpg_.webp.jpg", href:"#"}
+				{src:"/images/1.jpg_.webp.jpg", href:"/html/list.html"},
+				{src:"/images/2.jpg_.webp.jpg", href:"/html/list.html"},
+				{src:"/images/3.jpg_.webp.jpg", href:"/html/list.html"},
+				{src:"/images/4.jpg_.webp.jpg", href:"/html/list.html"},
+				{src:"/images/5.jpg_.webp.jpg", href:"/html/list.html"}
 			],
 			width:300,
 			height: 180,

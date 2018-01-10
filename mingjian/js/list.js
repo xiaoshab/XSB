@@ -62,5 +62,14 @@ require(["config"], function(){
 		});
 		return idx;
 	}
+	//	跳到详情页面
+	$("div").delegate(".img","click",function(event){
+				var _box = $(this).parent();
+				var _id = _box.children(".id").text();
+				$.cookie("id", _id, {expires:7, path:"/"});
+//				console.log(_id);
+				location="/html/detail.html";
+
+	});
 	});
 });

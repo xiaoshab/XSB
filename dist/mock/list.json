@@ -3,14 +3,14 @@
 	"res_error" : "",
 	"res_body" : {
 		"data" : [
-			{"id":1, "title":"龙泉拙匠宝剑花纹钢八面汉剑防身冷兵器一体长刀剑唐剑硬剑未开刃", "price":750,"img":"/images/mol1.jpg"},
-			{"id":2, "title":"龙泉精龙宝剑高锰钢一体金属柄汉剑镇宅收藏刀剑硬剑唐剑 未开刃", "price":800,"img":"/images/mol2.jpg"},
-			{"id":3, "title":"手工花纹钢越王剑 龙泉周氏宝剑八面汉剑 兵器刀剑镇宅宝剑未开刃", "price":850,"img":"/images/mol3.jpg"},
-			{"id":4, "title":"龙泉周氏宝剑花纹钢锰钢唐剑镇宅龙泉刀剑汉剑长硬剑冷兵器未开刃", "price":880,"img":"/images/mol4.jpg"},
-			{"id":5, "title":"长款龙泉古剑轩宝剑花纹钢汉剑长剑硬剑未开刃-古剑轩刀剑", "price":750,"img":"/images/mol5.jpg"},
-			{"id":6, "title":"龙泉镇宅剑龙之剑花纹钢清剑不锈钢镇宅辟邪宝剑硬剑长剑未开刃", "price":700,"img":"/images/mol6.jpg"},
-			{"id":7, "title":"龙泉德渊宝剑一体君子唐剑手工百炼花纹钢唐横刀长汉剑镇宅未开刃", "price":715,"img":"/images/mol7.jpg"},
-			{"id":8, "title":"龙泉正宗刀剑锰钢唐剑汉剑花纹钢一体手工环首镇宅宝剑长剑未开刃", "price":600,"img":"/images/mol8.jpg"}
+			{"id":1, "title":"龙泉拙匠宝剑花纹钢八面汉剑防身冷兵器一体长刀剑唐剑硬剑未开刃", "price":750,"img":"/images/mol1.jpg","imag":"/images/mo1big.jpg"},
+			{"id":2, "title":"龙泉精龙宝剑高锰钢一体金属柄汉剑镇宅收藏刀剑硬剑唐剑 未开刃", "price":800,"img":"/images/mol2.jpg","imag":"/images/mol2big.jpg"},
+			{"id":3, "title":"手工花纹钢越王剑 龙泉周氏宝剑八面汉剑 兵器刀剑镇宅宝剑未开刃", "price":850,"img":"/images/mol3.jpg","imag":"/images/mol3big.jpg"},
+			{"id":4, "title":"龙泉周氏宝剑花纹钢锰钢唐剑镇宅龙泉刀剑汉剑长硬剑冷兵器未开刃", "price":880,"img":"/images/mol4.jpg","imag":"/images/mol4big.jpg"},
+			{"id":5, "title":"长款龙泉古剑轩宝剑花纹钢汉剑长剑硬剑未开刃-古剑轩刀剑", "price":750,"img":"/images/mol5.jpg","imag":"/images/mol5big.jpg"},
+			{"id":6, "title":"龙泉镇宅剑龙之剑花纹钢清剑不锈钢镇宅辟邪宝剑硬剑长剑未开刃", "price":700,"img":"/images/mol6.jpg","imag":"/images/mol6big.jpg"},
+			{"id":7, "title":"龙泉德渊宝剑一体君子唐剑手工百炼花纹钢唐横刀长汉剑镇宅未开刃", "price":715,"img":"/images/mol7.jpg","imag":"/images/mol7big.jpg"},
+			{"id":8, "title":"龙泉正宗刀剑锰钢唐剑汉剑花纹钢一体手工环首镇宅宝剑长剑未开刃", "price":600,"img":"/images/mol8.jpg","imag":"/images/mol8big.jpg_.webp"}
 		]
 	}
 }

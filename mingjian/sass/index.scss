@@ -93,18 +93,4 @@
             }
         }   
     }
-    .lists{
-        height: 300px;
-        .lists_ul{
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            li{
-                width: 30%;
-                height: 80px;
-                background: chocolate;
-                margin-top: 10px;
-            }
-        }
-    }
 }
