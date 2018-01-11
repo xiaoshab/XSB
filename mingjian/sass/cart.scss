@@ -3,7 +3,8 @@
     box-sizing: border-box;
 }
 .mian{
-    min-height: 600px;
+    min-height: 440px;
+    overflow: hidden;
     position: relative;
     padding: 0 180px;
     background: url(/images/cartbg.gif);
@@ -75,24 +76,26 @@
             width:300px;
         }
         .total {
-            padding-left: 50px;
-            width:897px;
+            text-align: center;
+            width:160px;
             height:50px;
             line-height: 50px;
             position: absolute;
             bottom:10px;
+            left: 16px;
             border: 1px solid;
-            .get{
+        }
+        .get{
             text-align: center;
             width: 60px;
             height: 48px;
+            line-height: 48px;
             background: darkcyan;
             position: absolute;
-            top:0;
+            bottom:0;
             right: 50px;
             cursor: pointer;
             }
-        }
     }
 .cart_link{
         display: block;
