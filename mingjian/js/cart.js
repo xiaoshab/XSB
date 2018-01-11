@@ -5,7 +5,7 @@ require(["config"], function(){
 	var _products = $.cookie("products") || [];
 	// 判断
 	if (_products.length === 0) { // 购物车为空
-		$(".cart_body").html(`购物车为空，请<a href="list.html">选购商品</a>`);
+		$(".cart_body").html(`<a href="/html/list.html" class="cart_link">购物车为空，请选购商品</a>`);
 		return;
 	}
 	/* 将购物车中保存的商品渲染显示到页面中 */
@@ -119,6 +119,26 @@ require(["config"], function(){
 			sum += Number($(this).parents(".product").children(".sub").text())
 		});
 		$(".total .money").text(sum.toFixed(2));
+			return sum;
 	}
+	$(".get").on("click", function(){
+//			console.log(calcTotal());
+			var text = `你购买商品的价钱总额为<span>${calcTotal()}</span>,请确认是否购买?
+			<button class = "close">关闭</button>
+			<button class = "confirm">确认付钱</button>`;
+			$(".get_money").html(text);
+			$(".get_money").show();
+			$(".close").click(function () {
+			$(".get_money").hide();
+		});
+			$(".confirm").click(function () {
+				setTimeout(function () {
+					$(".get_money").hide();
+					confirm("购买成功");
+					location = "/index.html";
+				},3000)
+			
+		});
+		});
 	});
 });
